@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;" >
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className="main"
+    div.id =Math.round(Math.random()*10+1)
+    div.setAttribute("title", "title generated")
+    div.style.backgroundColor ="blue"
+    div.style.textAlign = "center"
+    //div.innerHTML = "coding shuttle by Nameer" method one to enter text
+    const addtext = document.createTextNode("Coding shuttle by Nameer") // second method to enter text
+    div.appendChild(addtext)
+    document.body.appendChild(div)
+</script>
+</html>
