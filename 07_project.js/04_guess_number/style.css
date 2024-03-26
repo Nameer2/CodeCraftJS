@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    width: 500px;
+}
+.container{
+    margin-left: 430px;
+    background-color: gray;
+    width: 650px;
+    height: 650px;
+    text-align: center;
+}
+.Guess{
+   font-size: 50px;
+   margin-top: 100px;
+}
+.guessinput{
+      width:250px;
+      height: 50px;
+      margin-top: 30px;
+      border-radius: 20px;
+      font-size: 50px;
+}    
+.sub{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color:rgb(69,69,69) ;
+    color: white;
+
+}
+h1{
+    background-color: rgb(69, 69, 69);
+}
+#new{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:rgb(69,69,69) ;
+    color: white;
+
+}
